@@ -1,0 +1,295 @@
+{
+  "app_name": "Quản lý Sinh Nhật",
+  "select_placeholder": "Chọn...",
+  "sort_desc": "Giảm dần",
+  "sort_asc": "Tăng dần",
+  "per_page_many": "Hiển thị thật nhiều",
+  "total": "Tổng cộng",
+  "sort_by": "Sắp xếp",
+  "name": "Tên",
+  "not_saved": "Chưa lưu",
+  "all": "Tất cả",
+  "error_download": "Có lỗi xảy ra trong quá trình tải với định dạng [{type}] !",
+  "ok_title": "Đồng ý",
+  "active": "Kích hoạt",
+  "current": "Hiện tại",
+  "inactive": "Không kích hoạt",
+  "no_data": "Chưa có dữ liệu, vui lòng click thêm mới.",
+  "status": "Trạng thái",
+  "cancel_title": "Đóng",
+  "unsaved_id": "Chưa lưu ID",
+  "tag_name": "Nhãn",
+  "placeholder_search": "@:action.enter từ khóa",
+  "created_at": "Ngày tạo",
+  "session_timeout": "Phiên đăng nhập đã hết hạn, bạn cần phải đăng nhập lại.",
+  "updated_at": "Ngày sửa",
+  "avatar": "Ảnh đại diện",
+  "user_label": "Người dùng",
+  "users_label": "Người dùng",
+  "wish_quote_label": "Câu chúc sinh nhật",
+  "wish_quotes_label": "Câu chúc sinh nhật",
+  "template_label": "Giao diện mẫu",
+  "templates_label": "Giao diện mẫu",
+  "birthday_label": "Giao diện sinh nhật",
+  "birthdays_label": "Giao diện sinh nhật",
+  "top-header": {
+    "logout": "Đăng xuất",
+    "admin_role": "Quản trị viên"
+  },
+  "action": {
+    "add": "Thêm",
+    "edit": "Sửa",
+    "save": "Lưu",
+    "turn_off": "Tắt",
+    "turn_on": "Bật",
+    "delete": "Xóa",
+    "clear": "Xóa",
+    "add_new": "Thêm mới",
+    "enable": "Kích hoạt",
+    "disable": "Không kích hoạt",
+    "search": "Tìm kiếm",
+    "import": "Nhập dữ liệu",
+    "export": "Xuất dữ liệu",
+    "refresh": "Làm mới",
+    "name": "Hành động",
+    "enter": "Nhập",
+    "detail": "Chi tiết",
+    "confirm": "Vui lòng xác nhận"
+  },
+  "navigations": {
+    "home": "Trang chính",
+    "birthdays": "@:birthdays_label",
+    "users": "@:users_label",
+    "settings": "Cấu hình",
+    "templates": "@:templates_label",
+    "wish_quotes": "@:wish_quotes_label"
+  },
+  "toast-message": {
+    "header": "Thông báo !",
+    "close": "@:cancel_title"
+  },
+  "home": {
+    "action": {
+      "add": "@:action.add",
+      "edit": "@:action.edit",
+      "delete": "@:action.delete",
+      "search": "@:action.search",
+      "export": "@:action.export",
+      "import": "@:action.import (từ hệ thống tương tự)"
+    },
+    "top_banner": {
+      "message1": "Chào mừng bạn đến với hệ thống",
+      "message2": "@:app_name"
+    },
+    "summary": {
+      "header": "Các tính năng chính",
+      "export1": "@:action.export (ZIP & JSON)",
+      "export2": "@:action.export (JSON)",
+      "to_route": "Đến trang quản lý"
+    }
+  },
+  "locale-changer": {
+    "title": "Thay đổi ngôn ngữ",
+    "locale": {
+      "vi": "Tiếng Việt",
+      "en": "Tiếng Anh"
+    }
+  },
+  "settings": {
+    "saved": "Đã lưu cấu hình hệ thống.",
+    "save": "@:action.save",
+    "reset": "Đặt lại",
+    "main": {
+      "header": "Cấu hình chung",
+      "endpoint": "Máy chủ nguồn",
+      "placeholder_endpoint": "@:action.enter @.lower:settings.main.endpoint"
+    },
+    "birthdays_page": {
+      "header": "Cấu hình trang @:app_name",
+      "sort_direction": "Hướng"
+    },
+    "users_page": {
+      "header": "Cấu hình trang @:users.header",
+      "per_page": "Số @.lower:users_label trên 1 trang",
+      "sort_direction": "Hướng"
+    }
+  },
+  "page-not-found": {
+    "header": "Không tìm thấy",
+    "the_url_you_access_does_not_exists": "Trang mà bạn truy cập không tồn tại.",
+    "go_home": "Về trang chủ"
+  },
+  "retry_readable": {
+    "hours": "giờ",
+    "minutes": "phút",
+    "seconds": "giây",
+    "please_retry_after": "Vui lòng thử lại sau {hours} @.lower:retry_readable.hours {minutes} @.lower:retry_readable.minutes {seconds} @.lower:retry_readable.seconds"
+  },
+  "login": {
+    "header_form": "Chào mừng !",
+    "message": "Vui lòng đăng nhập vào tài khoản của bạn để bắt đầu cuộc phiêu lưu",
+    "form": {
+      "email": "Địa chỉ email",
+      "placeholder_email": "@:action.enter @.lower:login.form.email",
+      "password": "Mật khẩu",
+      "placeholder_password": "@:action.enter @.lower:login.form.password",
+      "remember": "Ghi nhớ",
+      "submit": "Đăng nhập"
+    },
+    "failed": {
+      "many_failed_message": "Bạn đã đăng nhập sai quá nhiều lần từ địa chỉ IP này",
+      "invalid": "Địa chỉ email hoặc mật khẩu không đúng."
+    }
+  },
+  "error": {
+    "default_text": "Xảy ra sự cố...",
+    "has_error": "Có lỗi",
+    "notice": "@:toast-message.header"
+  },
+  "loading": {
+    "text": "Đang tải..."
+  },
+  "error-load-route": {
+    "modal_header": "Oh, không, không",
+    "ok_title": "Thử lại",
+    "text": "Xảy ra lỗi trong quá trình tải lớp giao diện này."
+  },
+  "validations": {
+    "messages": {
+      "!!! can use as format !!!": "{_rule_}, {_field_}, {length}",
+      "required": "Vui lòng nhập giá trị.",
+      "required2": "Vui lòng chọn giá trị.",
+      "min": "Chiều dài tối thiểu phải lớn hơn hoặc bằng {length}.",
+      "url": "Đường dẫn liên kết không đúng định dạng.",
+      "avatar": "Đường dẫn liên kết @.lower:avatar không đúng định dạng."
+    }
+  },
+  "modal-birthday-form": {
+    "updated": "@:birthday_label của @.lower:user_label với username [{username}] đã được cập nhật.",
+    "created": "@:birthday_label của @.lower:user_label với username [{username}] đã được tạo, id: [{id}].",
+    "ok_title": "@:action.save",
+    "modal_header_edit": "@:action.edit @.lower:birthday_label",
+    "modal_header_add": "@:action.add @.lower:birthday_label",
+    "select_user": "Chọn @.lower:user_label",
+    "loading_user": "Đang tải (@.lower:user_label)...",
+    "no_data": "Không tìm thấy dữ liệu.",
+    "user_tip": "@:user_label sẽ được hiển thị giao diện sinh nhật",
+    "select_template": "Chọn mẫu",
+    "template": "Giao diện",
+    "loading_template": "Đang tải @.lower:(modal-birthday-form.template)...",
+    "template_tip": "Mẫu giao diện sẽ hiển thị ở url /[username]"
+  },
+  "modal-import": {
+    "imported": "Đã nhập dữ liệu của ${message} ${header_name}.",
+    "wish_quotes": "@:navigations.wish_quotes",
+    "templates": "@:navigations.templates",
+    "users": "@:navigations.users_label",
+    "ok_title": "Bắt đầu",
+    "birthdays": "@:navigations.birthdays_label",
+    "modal_header": "@:action.import [{header_name}] từ website khác",
+    "form": {
+      "txt_url": "Đường dẫn liên kết Website",
+      "placeholder_txt_url": "@:action.enter @.lower:modal-import.form.txt_url",
+      "txt_auth_token": "Mã truy cập",
+      "placeholder_txt_auth_token": "@:action.enter @.lower:modal-import.form.txt_auth_token"
+    }
+  },
+  "birthday-item": {
+    "img_alt_for": "@:birthday_label của {user}",
+    "view_in_new_tab": "Xem @.lower:birthday_label của {user} trên tab mới",
+    "view_template_design_in_new_tab": "Xem thiết kế giao diện gốc trên tab mới",
+    "make_inactive": "Không kích hoạt @.lower:birthday_label này",
+    "make_active": "Kích hoạt @.lower:birthday_label này"
+  },
+  "birthdays": {
+    "not_found": "@:birthday_label của @.lower:user_label [{user}] không tồn tại.",
+    "missing_templates": "Bị mất giao diện",
+    "missing_users": "Bị mất @.lower:users_label",
+    "confirm_action": "Bạn có chắc chắn sẽ {action} @.lower:birthday_label của @.lower:user_label [{user}] ?",
+    "deleted": "@:birthday_label với id: [{id}] đã bị xóa.",
+    "status_updated": "Trạng thái @.lower:birthday_label [{user}] đã được cập nhật.",
+    "header": "Quản lý @.lower:birthday_label",
+    "view_list_at_home": "Xem danh sách ở trang chính",
+    "enter_username": "@:action.enter tên @.lower:user_label",
+    "filter_by_template": "Lọc theo giao diện",
+    "filter_by_status": "Lọc theo trạng thái"
+  },
+  "template-item": {
+    "updated": "Đã lưu @.lower:template_label với id: [{id}].",
+    "created": "@:template_label [{name}] đã được tạo, id: [{id}].",
+    "form": {
+      "txt_name": "Tên @.lower:template_label",
+      "placeholder_txt_name": "@:action.enter tên @.lower:template_label",
+      "txt_thumb": "Hình xem trước",
+      "placeholder_txt_thumb": "@:action.enter @.lower:template-item.form.txt_thumb",
+      "url_label": "Đường dẫn liên kết",
+      "txt_url": "@.lower:template-item.form.url_label",
+      "placeholder_txt_url": "@:action.enter @.lower:template-item.form.url_label"
+    }
+  },
+  "templates": {
+    "deleted": "@:template_label với id: [{id}] đã bị xóa.",
+    "deleted_not_saved": "@:template_label [@.lower:not_saved] đã bị xóa.",
+    "header": "Quản lý @:templates_label",
+    "confirm_action": "Bạn có chắc chắn sẽ xóa @.lower:template_label [{name}] ?"
+  },
+  "user-form": {
+    "female": "Nữ",
+    "male": "Nam",
+    "updated": "@:user_label với username [{username}] đã được cập nhật.",
+    "created": "@:user_label với username [{username}] đã được tạo.",
+    "modal_header_edit": "@:action.edit @.lower:user_label",
+    "ok_title": "@:action.save",
+    "modal_header_add": "@:action.add @.lower:user_label",
+    "form": {
+      "txt_full_name": "Họ và Tên",
+      "placeholder_txt_full_name": "@:action.enter @.lower:user-form.form.txt_full_name",
+      "txt_username": "Tên đăng nhập",
+      "placeholder_txt_username": "@:action.enter @.lower:user-form.form.txt_username",
+      "birth_date": "Ngày sinh",
+      "placeholder_birth_date": "Chọn ngày sinh",
+      "gender": "Giới tính",
+      "placeholder_avatar": "@:action.enter @.lower:avatar"
+    }
+  },
+  "users": {
+    "name": "Họ và Tên",
+    "age": "Độ tuổi",
+    "yes": "Có",
+    "no": "Không",
+    "sort_none": "-- Không chọn --",
+    "user_not_exists": "@:user_label với username [{username}] không tồn tại.",
+    "confirm_action": "Bạn có chắc chắn sẽ {action} @.lower:user_label [{username}] ?",
+    "row_index": "Dòng số",
+    "deleted": "@:user_label với username [{username}] đã bị xóa",
+    "status_updated": "Trạng thái của @.lower:user_label [{username}] đã được cập nhật.",
+    "filter": "Bộ lọc",
+    "uncheck_all": "Bỏ chọn hết checkbox để hiển thị tất cả @.lower:users_label",
+    "list": "Danh sách @.lower:users_label",
+    "avatar": "@:avatar của {name}",
+    "view_json_data": "Xem dữ liệu json",
+    "hide_detail": "Ẩn @.lower:action.detail",
+    "show_detail": "Hiện @.lower:action.detail",
+    "disable_action": "Không kích hoạt @.lower:user_label này",
+    "enable_action": "Kích hoạt @.lower:user_label này",
+    "not_found_with_criteria": "Không tìm thấy @.lower:users_label phù hợp với tiêu chí tìm kiếm.",
+    "first_page": "Trang đầu",
+    "ok_title": "@:action.save",
+    "header": "Quản lý @:users_label",
+    "last_page": "Trang cuối"
+  },
+  "wish-quote-item": {
+    "updated": "Đã lưu @.lower:wish_quote_label với id: [{id}].",
+    "created": "@:wish_quote_label đã được tạo, id: [{id}].",
+    "form": {
+      "txt_quote": "@:wish_quote_label",
+      "placeholder_txt_quote": "@:action.enter @.lower:wish_quote_label"
+    }
+  },
+  "wish-quotes": {
+    "deleted": "@:wish_quote_label với id: [{id}] đã bị xóa.",
+    "deleted_not_saved": "@:wish_quote_label [@.lower:not_saved] đã bị xóa.",
+    "header": "Quản lý @:wish_quotes_label",
+    "confirm_action": "Bạn có chắc chắn sẽ xóa @.lower:wish_quote_label [{name}] ?"
+  }
+}

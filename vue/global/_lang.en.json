@@ -1,0 +1,295 @@
+{
+  "app_name": "Birthdays Management",
+  "select_placeholder": "Select...",
+  "sort_desc": "Descending",
+  "sort_asc": "Ascending",
+  "per_page_many": "Show a lot",
+  "total": "Total",
+  "sort_by": "Sort by",
+  "name": "Name",
+  "not_saved": "Unsaved",
+  "all": "All",
+  "error_download": "An error occurred while downloading with the format [{type}] !",
+  "ok_title": "Agree",
+  "active": "Active",
+  "current": "Current",
+  "inactive": "Inactive",
+  "no_data": "No data, please click on add new button.",
+  "status": "Status",
+  "cancel_title": "Close",
+  "unsaved_id": "Unsaved ID",
+  "tag_name": "Tag",
+  "placeholder_search": "@:action.enter keyword",
+  "created_at": "Created at",
+  "session_timeout": "Your login session has expired, you need to login again.",
+  "updated_at": "Updated at",
+  "avatar": "Avatar",
+  "user_label": "User",
+  "users_label": "Users",
+  "wish_quote_label": "Wish Quote",
+  "wish_quotes_label": "Wish Quotes",
+  "template_label": "Template",
+  "templates_label": "Templates",
+  "birthday_label": "Birthday Show",
+  "birthdays_label": "Birthdays Show",
+  "top-header": {
+    "logout": "Logout",
+    "admin_role": "Admin"
+  },
+  "action": {
+    "add": "Add",
+    "edit": "Edit",
+    "save": "Save",
+    "turn_off": "Turn off",
+    "turn_on": "Turn on",
+    "delete": "Delete",
+    "clear": "Clear",
+    "add_new": "Add new",
+    "enable": "Enable",
+    "disable": "Disable",
+    "search": "Search",
+    "import": "Import",
+    "export": "Export",
+    "refresh": "Refresh",
+    "name": "Action",
+    "enter": "Enter",
+    "detail": "Detail",
+    "confirm": "Please confirm"
+  },
+  "navigations": {
+    "home": "Home",
+    "birthdays": "@:birthdays_label",
+    "users": "@:users_label",
+    "settings": "Settings",
+    "templates": "@:templates_label",
+    "wish_quotes": "@:wish_quotes_label"
+  },
+  "toast-message": {
+    "header": "Notice !",
+    "close": "@:cancel_title"
+  },
+  "home": {
+    "action": {
+      "add": "@:action.add",
+      "edit": "@:action.edit",
+      "delete": "@:action.delete",
+      "search": "@:action.search",
+      "export": "@:action.export",
+      "import": "@:action.import (from similar system)"
+    },
+    "top_banner": {
+      "message1": "Welcome to the",
+      "message2": "@:app_name system"
+    },
+    "summary": {
+      "header": "Main function",
+      "export1": "@:action.export (ZIP & JSON)",
+      "export2": "@:action.export (JSON)",
+      "to_route": "Go to the management page"
+    }
+  },
+  "locale-changer": {
+    "title": "Change language",
+    "locale": {
+      "vi": "Vietnamese",
+      "en": "English"
+    }
+  },
+  "settings": {
+    "saved": "System configuration has been saved.",
+    "save": "@:action.save",
+    "reset": "Reset",
+    "main": {
+      "header": "Global config",
+      "endpoint": "Endpoint",
+      "placeholder_endpoint": "@:action.enter @.lower:settings.main.endpoint"
+    },
+    "birthdays_page": {
+      "header": "Config for @:app_name page",
+      "sort_direction": "Direction"
+    },
+    "users_page": {
+      "header": "Config for @:users.header page",
+      "per_page": "Number of @.lower:users_label per page",
+      "sort_direction": "Direction"
+    }
+  },
+  "page-not-found": {
+    "header": "Not found",
+    "the_url_you_access_does_not_exists": "The url you visited does not exist.",
+    "go_home": "Go home"
+  },
+  "retry_readable": {
+    "hours": "hour(s)",
+    "minutes": "minute(s)",
+    "seconds": "second(s)",
+    "please_retry_after": "Please try again after {hours} @.lower:retry_readable.hours {minutes} @.lower:retry_readable.minutes {seconds} @.lower:retry_readable.seconds"
+  },
+  "login": {
+    "header_form": "Welcome !",
+    "message": "Please login to your account to start the adventure",
+    "form": {
+      "email": "Email address",
+      "placeholder_email": "@:action.enter @.lower:login.form.email",
+      "password": "Password",
+      "placeholder_password": "@:action.enter @.lower:login.form.password",
+      "remember": "Remember Me",
+      "submit": "Log in"
+    },
+    "failed": {
+      "many_failed_message": "You have attempted to logging wrong too many times from this IP address",
+      "invalid": "Incorrect email address or password."
+    }
+  },
+  "error": {
+    "default_text": "Something went wrong...",
+    "has_error": "Error",
+    "notice": "@:toast-message.header"
+  },
+  "loading": {
+    "text": "Loading..."
+  },
+  "error-load-route": {
+    "modal_header": "Oh, no, no",
+    "ok_title": "Retry",
+    "text": "An error occurred when loading this layout."
+  },
+  "validations": {
+    "messages": {
+      "!!! can use as format !!!": "{_rule_}, {_field_}, {length}",
+      "required": "Please enter a value.",
+      "required2": "Please select a value.",
+      "min": "Minimum length must be greater than or equal to {length}.",
+      "url": "Url is invalid.",
+      "avatar": "Url of @.lower:avatar is invalid."
+    }
+  },
+  "modal-birthday-form": {
+    "updated": "@:birthday_label of @.lower:user_label with username [{username}] has been updated.",
+    "created": "@:birthday_label of @.lower:user_label with username [{username}] has been created, id: [{id}].",
+    "ok_title": "@:action.save",
+    "modal_header_edit": "@:action.edit @.lower:birthday_label",
+    "modal_header_add": "@:action.add @.lower:birthday_label",
+    "select_user": "Select @.lower:user_label",
+    "loading_user": "Loading (@.lower:user_label)...",
+    "no_data": "No data.",
+    "user_tip": "@:user_label who will be displayed birthday show",
+    "select_template": "Select template",
+    "template": "Template",
+    "loading_template": "Loading @.lower:(modal-birthday-form.template)...",
+    "template_tip": "The template will be showed at url /[username]"
+  },
+  "modal-import": {
+    "imported": "Imported ${message} ${header_name} successfully.",
+    "wish_quotes": "@:navigations.wish_quotes",
+    "templates": "@:navigations.templates",
+    "users": "@:navigations.users_label",
+    "ok_title": "Start",
+    "birthdays": "@:navigations.birthdays_label",
+    "modal_header": "@:action.import [{header_name}] from another website",
+    "form": {
+      "txt_url": "Website url",
+      "placeholder_txt_url": "@:action.enter @.lower:modal-import.form.txt_url",
+      "txt_auth_token": "Auth token",
+      "placeholder_txt_auth_token": "@:action.enter @.lower:modal-import.form.txt_auth_token"
+    }
+  },
+  "birthday-item": {
+    "img_alt_for": "@:birthday_label của {user}",
+    "view_in_new_tab": "View @.lower:birthday_label of {user} in new tab",
+    "view_template_design_in_new_tab": "View original template design  gốc in new tab",
+    "make_inactive": "Make this @.lower:birthday_label inactive",
+    "make_active": "Make this @.lower:birthday_label active"
+  },
+  "birthdays": {
+    "not_found": "@:birthday_label của @.lower:user_label [{user}] does not exists.",
+    "missing_templates": "Missing templates",
+    "missing_users": "Missing @.lower:users_label",
+    "confirm_action": "Are you sure you will {action} @.lower:birthday_label of @.lower:user_label [{user}] ?",
+    "deleted": "@:birthday_label with id: [{id}] has been deleted.",
+    "status_updated": "Status of @.lower:birthday_label [{user}] has been updated.",
+    "header": "@:birthday_label management",
+    "view_list_at_home": "View list at main page",
+    "enter_username": "@:action.enter name of @.lower:user_label",
+    "filter_by_template": "Filter by template",
+    "filter_by_status": "Filter by status"
+  },
+  "template-item": {
+    "updated": "@:template_label with id: [{id}] has been saved.",
+    "created": "@:template_label [{name}] has been created, id: [{id}].",
+    "form": {
+      "txt_name": "@:template_label name",
+      "placeholder_txt_name": "@:action.enter @.lower:template_label name",
+      "txt_thumb": "Thumbnail",
+      "placeholder_txt_thumb": "@:action.enter @.lower:template-item.form.txt_thumb",
+      "url_label": "Url",
+      "txt_url": "@.lower:template-item.form.url_label",
+      "placeholder_txt_url": "@:action.enter @.lower:template-item.form.url_label"
+    }
+  },
+  "templates": {
+    "deleted": "@:template_label with id: [{id}] has been deleted.",
+    "deleted_not_saved": "@:template_label [@.lower:not_saved] has been deleted.",
+    "header": "@:templates_label management",
+    "confirm_action": "Are you sure you will delete @.lower:template_label [{name}] ?"
+  },
+  "user-form": {
+    "female": "Female",
+    "male": "Male",
+    "updated": "@:user_label with username [{username}] has been updated.",
+    "created": "@:user_label with username [{username}] has been created..",
+    "modal_header_edit": "@:action.edit @.lower:user_label",
+    "ok_title": "@:action.save",
+    "modal_header_add": "@:action.add @.lower:user_label",
+    "form": {
+      "txt_full_name": "Full name",
+      "placeholder_txt_full_name": "@:action.enter @.lower:user-form.form.txt_full_name",
+      "txt_username": "Username",
+      "placeholder_txt_username": "@:action.enter @.lower:user-form.form.txt_username",
+      "birth_date": "Birth date",
+      "placeholder_birth_date": "Select birth date",
+      "gender": "Gender",
+      "placeholder_avatar": "@:action.enter @.lower:avatar"
+    }
+  },
+  "users": {
+    "name": "Full name",
+    "age": "Age",
+    "yes": "Yes",
+    "no": "No",
+    "sort_none": "-- None --",
+    "user_not_exists": "@:user_label with username [{username}] does not exists.",
+    "confirm_action": "Are you sure you will {action} @.lower:user_label [{username}] ?",
+    "row_index": "Row index",
+    "deleted": "@:user_label with username [{username}] has been deleted",
+    "status_updated": "Status of @.lower:user_label [{username}] has been updated.",
+    "filter": "Filter",
+    "uncheck_all": "Unmark all checkbox to show all @.lower:users_label",
+    "list": "@:users_label list",
+    "avatar": "@:avatar of {name}",
+    "view_json_data": "View json data",
+    "hide_detail": "Hide @.lower:action.detail",
+    "show_detail": "Show @.lower:action.detail",
+    "disable_action": "Disable this @.lower:user_label",
+    "enable_action": "Enable this @.lower:user_label",
+    "not_found_with_criteria": "Not found @.lower:users_label match with criteria.",
+    "first_page": "First page",
+    "ok_title": "@:action.save",
+    "header": "@:users_label management",
+    "last_page": "Last page"
+  },
+  "wish-quote-item": {
+    "updated": "@:wish_quote_label with id: [{id}] has been updated.",
+    "created": "@:wish_quote_label has been created, id: [{id}].",
+    "form": {
+      "txt_quote": "@:wish_quote_label",
+      "placeholder_txt_quote": "@:action.enter @.lower:wish_quote_label"
+    }
+  },
+  "wish-quotes": {
+    "deleted": "@:wish_quote_label with id: [{id}] has been deleted.",
+    "deleted_not_saved": "@:wish_quote_label [@.lower:not_saved] has been deleted.",
+    "header": "@:wish_quotes_label management",
+    "confirm_action": "Are you sure you will delete @.lower:wish_quote_label [{name}] ?"
+  }
+}
